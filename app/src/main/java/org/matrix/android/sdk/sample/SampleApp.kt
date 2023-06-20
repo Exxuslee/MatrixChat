@@ -24,7 +24,6 @@ import org.matrix.android.sdk.sample.util.RoomDisplayNameFallbackProviderImpl
 import timber.log.Timber
 
 class SampleApp : Application() {
-
     private lateinit var matrix: Matrix
 
     override fun onCreate() {
